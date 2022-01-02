@@ -1,5 +1,5 @@
 import { Component } from "react";
-import Counter from "../Counter";
+import Header from '../Header';
 
 class App extends Component {
     constructor () {
@@ -8,16 +8,14 @@ class App extends Component {
             count: 0
         }
     }
+
+    
+
+
     render() {
-        const { count } = this.state;
-
-        const addOne = (amount) => {
-            this.setState( {count: count + amount});
-        }
-
         return (
             <div className="app">
-                <Counter addOne={ addOne } count={ count } />
+               <Header />
             </div>
         );
     }
