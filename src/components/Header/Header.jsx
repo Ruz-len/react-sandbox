@@ -4,7 +4,7 @@ const Header = () => {
     return  (
         <div className="Header">
             <div className="header-btns">
-                <button className="header-btn">RUS |</button>
+                <button className="header-btn">РУС |</button>
                 <button className="header-btn">| ENG</button>
             </div>
             <div className="header-wrapper">

@@ -1,9 +1,16 @@
 .Starter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background-image: url(./starter-img.jpg);
+    background-size: cover;
     
-    height: calc(100vh - 50px);
+    height: calc(100vh - 65px);
 }
 
 .starter-header {
-
+    font-size: 50px;
+    font-style: italic;
+    color: white;
 }
