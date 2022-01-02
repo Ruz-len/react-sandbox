@@ -1,0 +1,44 @@
+.Header {
+    background-color: lightgoldenrodyellow;
+}
+
+.header-btns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-btn {
+    border: none;
+    background-color: lightgoldenrodyellow;
+  
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.header-wrapper {
+    height: 50px;
+    display: flex; 
+}
+
+.header-list {
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+}
+
+.header-item {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.logo {
+    font-style: italic;
+    color: darkblue;
+    cursor: pointer;
+}
