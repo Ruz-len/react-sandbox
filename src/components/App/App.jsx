@@ -6,7 +6,7 @@ class App extends Component {
     constructor () {
         super();
         this.state = {
-            locale: 'ru',
+            locale: 'eng',
             
             langpacks: {
                 ru: {
@@ -30,11 +30,19 @@ class App extends Component {
             }  
         }
     }
+
+    changeLocale = (locale) => {
+        this.setState({locale})
+    }
    
     render() {
         return (
             <div className="app">
-                <Header />
+                <Header 
+                    langpacks={this.state.langpacks} 
+                    locale={this.state.locale} 
+                    changeLocale={this.changeLocale}
+                />
                 <Starter />
             </div>
         );
